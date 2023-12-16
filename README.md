@@ -10,7 +10,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
       - [Desktop View](#desktop-view)
-  - [](#)
       - [Mobile View](#mobile-view)
       - [Links](#links)
   - [My process](#my-process)
