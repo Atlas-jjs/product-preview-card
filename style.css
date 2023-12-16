@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--cream);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: var(--white);
+    max-width: 580px;
+    display: flex;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.product-picture {
+    height: 440px;
+    width: 300px;
+    border-radius: 1rem 0 0 1rem ;
+}
+
+.tab {
+    padding: 2rem;
+}
+
+.product {
+    color: var(--dark-grayish-blue);
+    letter-spacing: 5px;
+    margin-bottom: 1rem;
+}
+
+.product-name {
+    font-size: 2rem;
+    font-family: 'Fraunces';
+    margin-bottom: 20px;
+}
+
+.product-description {
+    color: var(--dark-grayish-blue);
+    line-height: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.prices {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.prices .current-price {
+    color: var(--dark-cyan);
+    font-size: 1.85rem;
+    font-family: 'Fraunces';
+}
+
+.prices .before-price {
+    color: var(--dark-grayish-blue);
+    margin-left: 1rem;
+    text-decoration: line-through;
+}
+
+.add-to-cart-btn {
+    border-radius: 10px;
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    width: 14rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: hsl(158, 31%, 25%);
+}
+
+.add-to-cart-btn img {
+    margin-right: 0.8rem;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 540px) {
+    .product-picture {
+        object-fit: cover;
+        border-radius: 1rem 1rem 0 0 ;
+    }
+
+    .container {
+        display: grid;
+        margin: auto;
+        max-width: 85%;
+    }
+
+    .product-picture {
+        width: 100%;
+    }
+
+    .add-to-cart-btn {
+        width: 100%;
+    }
+}
