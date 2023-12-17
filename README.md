@@ -50,9 +50,9 @@ Users should be able to:
 ### What I learned
 
 - Workflow was smoother thanks to the two other newbie exercises.
-- Learning how to make it responsive in mobile.
+- Learning how to make it responsive on mobile.
 
 ## Author
 
-- Website - [Jazreil Jaron](https://atlas-jjs.github.io/faq-accordion-desktop/)
+- Website - [Jazreil Jaron](https://www.frontendmentor.io/profile/Atlas-jjs)
 - Frontend Mentor - [@Atlas-jjs](https://www.frontendmentor.io/profile/Atlas-jjs)
